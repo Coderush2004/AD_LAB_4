@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffcc80;
+            color: #333;
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 15px;
+        }
+        input[type="submit"] {
+            background-color: #e64a19;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #d84315;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="rollno">Roll No.:</label>
+        <input type="text" id="rollno" name="rollno" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required>
+        <label for="semester">Semester:</label>
+        <input type="text" id="semester" name="semester" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
